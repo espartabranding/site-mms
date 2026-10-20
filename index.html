@@ -74,7 +74,8 @@ button{font:inherit;color:inherit}
 .nav.scrolled{background:rgba(16,64,216,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-color:var(--line-d)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;gap:24px}
 .logo{display:flex;align-items:center;gap:10px;font-weight:600;font-size:18px;letter-spacing:.02em}
-.logo svg{width:22px;height:22px}
+.logo-img{height:28px;width:auto;display:block}
+.foot .logo-img{height:32px}
 .logo small{font-weight:300;font-size:13px;color:#9AA6C2;letter-spacing:0;padding-left:10px;border-left:1px solid var(--line-d)}
 .nav-links{display:flex;gap:32px}
 .nav-links a{font-size:14px;font-weight:300;color:#C3CBDD;transition:color .2s}
@@ -391,8 +392,8 @@ footer{border-top:1px solid rgba(255,255,255,.22);font-size:14px;color:#D5E0FF}
 <nav class="nav" id="nav">
   <div class="wrap nav-inner">
     <a href="#top" class="logo" aria-label="MMS, início">
-      <svg viewBox="0 0 22 22" aria-hidden="true"><path d="M1 21 8 1h5L6 21z" fill="#1F4FE0"/><path d="M9 21 16 1h5l-7 20z" fill="#fff"/></svg>
-      MMS <small>Money Management System</small>
+      <img class="logo-img" src="logo/mms-logo-branco.webp" width="558" height="120" alt="MMS">
+      <small>Money Management System</small>
     </a>
     <div class="nav-links">
       <a href="#o-sistema">O sistema</a>
@@ -679,7 +680,7 @@ footer{border-top:1px solid rgba(255,255,255,.22);font-size:14px;color:#D5E0FF}
   </div>
   <footer>
     <div class="wrap foot">
-      <a href="#top" class="logo"><svg viewBox="0 0 22 22" aria-hidden="true"><path d="M1 21 8 1h5L6 21z" fill="#9DB8FF"/><path d="M9 21 16 1h5l-7 20z" fill="#fff"/></svg>MMS</a>
+      <a href="#top" class="logo"><img class="logo-img" src="logo/mms-logo-branco.webp" width="558" height="120" alt="MMS, voltar ao início"></a>
       <nav class="foot-links" aria-label="Rodapé"><a href="#o-sistema">O sistema</a><a href="#o-que-recebe">O diagnóstico</a><a href="#como-funciona">Como funciona</a><a href="#duvidas">Dúvidas</a></nav>
       <a class="acc-l" href="https://mmsapp.com.br/login">Acessar minha conta →</a>
       <p class="foot-note">MMS — Money Management System. Inteligência financeira para PMEs.</p>
